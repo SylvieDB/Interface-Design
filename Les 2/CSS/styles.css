@@ -1,14 +1,14 @@
 body, html{
 padding: 0;
 margin: 0;
-background-color: rgb(203, 227, 243);
+background-color: whitesmoke;
 color: aliceblue;
 font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
 height: 200px;
-background-image: url(../img/image_2.jpg); /* ../ wordt gebruikt om eerst uit de map CSS te komen */
+background-image: url(../img/image_banner.png); /* ../ wordt gebruikt om eerst uit de map CSS te komen */
 background-repeat: no-repeat;
 }
 
@@ -16,7 +16,7 @@ header h1 {
 margin: 0;
 float: right;
 padding-top: 100px;
-padding-right: 100px;
+padding-right: 20x;
 }
 
 .mainNav {
@@ -36,9 +36,9 @@ text-decoration: none;
 padding: 0 20px;
 float: left;
 margin-right: 10px;
-background-color: #7D6E83;
+background-color: #D0B8A8;
 }
 
 .mainNav a:hover{
-    background-color: #D0B8A8;
+    background-color: #967E76;
 }
