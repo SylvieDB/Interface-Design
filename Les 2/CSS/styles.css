@@ -22,7 +22,7 @@ padding-right: 100px;
 .mainNav {
 height: 50px;
 line-height: 0px;
-background-color: rgb(78, 120, 119);
+background-color: #DFD3C3;
  
 }
 
@@ -36,9 +36,9 @@ text-decoration: none;
 padding: 0 20px;
 float: left;
 margin-right: 10px;
-background-color: rgb(58, 62, 62);
+background-color: #7D6E83;
 }
 
 .mainNav a:hover{
-    background-color: rgb(83, 90, 116);
+    background-color: #D0B8A8;
 }
