@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Form example</title>
+    <link rel ="stylesheet" href ="css/styles.css"/>
+
+</head>
+
+
+<body>
+<h1>Mijn formulier</h1>
+<p>Je kan dit formulier invullen om ons te contacteren</p>
+<form action = "#">
+
+<label for="firstname">Voornaam:</label>
+<input type="text" name="firstname" id="firstname"> <!--door id te gebruiken en die over te nemen in "for" maak je een link tussen de naam van het veld en de input veld-->
+<br>
+<br>
+<label for="lastname">Achternaam:</label>
+<input type="text" name="lastname" id="lastname">
+<br>
+<br>
+<label for="zip code">Postcode:</label>
+<input type="number" name="zipcode" id="zipcode">
+<br>
+<br>
+<label for="city">Gemeente:</label>
+<input type="text" name="city" id="city">
+<br>
+<br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+<br>
+<br>
+<input type="checkbox" name="newsletter" id="newsletter"> 
+<label for ="newsletter">Ik schrijf mij in voor de nieuwsbrief</label>
+<br>
+<br>
+<label>Kies je maat</label>
+<input type="radio" name="size" id="size_S"> <label for="size_S">S</label>
+<input type="radio" name="size" id="size_M"> <label for="size_S">M</label>
+<input type="radio" name="size" id="size_L"> <label for="size_S">L</label>
+<input type="radio" name="size" id="size_XL"> <label for="size_S">XL</label>
+<br>
+<br>
+<label for="attachment">Voeg een document toe</label>
+<input type="file" name="attachment" id="attachment">
+<br>
+<br>
+<label for="date">Welke dag zijn we vandaag</label>
+<input type="date" name="date" id="date">
+<br>
+<br>
+<input type="submit" value="Verstuur">
+
+</form>
+
+</body>
+
+
+</html>
